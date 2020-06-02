@@ -47,7 +47,7 @@ On commence toujours par la balise entrante, puis le contenu, ensuite on referme
 
 > Le nom de la balise se met entre **< >**, quant au nom de cette balise, il est définit dans les spécifications HTML, on ne met pas ce que l'on veut.
 
-#### Atributs et valeurs
+#### Attributs et valeurs
 
 Certaines balises peuvent se voir attribuer des attributs. Ils permettent de préciser certains paramètres (par exemple: l'adresse d'un lien, la source d'une image,...)
 
@@ -70,7 +70,6 @@ Certaines balises peuvent se voir attribuer des attributs. Ils permettent de pr�
 ### La balise \<html>
 
 C'est elle qui ouvre et ferme tout votre code. Il est obligatoire d'ajouter les balises **\<head>** et **\<body>** entre votre balise **\<html>**.
-
 
 ```html
 <html lang="fr">
@@ -120,4 +119,4 @@ Optionnel, renseigner les bonnes pratiques, des astuces de développeurs avancé
 
 ## Conclusion
 
-Eventuellement une synthèse,  un schéma, un résumé du cours. 
+Éventuellement une synthèse,  un schéma, un résumé du cours. 
