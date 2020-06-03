@@ -45,7 +45,7 @@ On commence toujours par la balise entrante, puis le contenu, ensuite on referme
 <p> Salut </p>
 ```
 
-> Le nom de la balise se met entre **< >**, quant au nom de cette balise, il est définit dans les spécifications HTML, on ne met pas ce que l'on veut.
+> Le nom de la balise se met entre **< >**, ce nom est définit dans les spécifications HTML, on ne met pas ce que l'on veut.
 
 #### Attributs et valeurs
 
@@ -65,7 +65,7 @@ Certaines balises peuvent se voir attribuer des attributs. Ils permettent de pr�
 
 * Indique au navigateur quel version d'HTML on utilise sur cette page.
 * Obligatoire pour valider sa page (W3C)
-* Si il n'est  renseigné = risque de bug de rétro-compatibilité, surtout sur des navigateurs plus anciens.
+* Si il n'est pas renseigné = risque de bug de rétro-compatibilité, surtout sur des navigateurs plus anciens.
 
 ### La balise \<html>
 
@@ -107,15 +107,60 @@ Quelques exemples de balises **\<meta>**:
 
 ### La balise \<body>
 
-*wip...*
+C'est elle qui contient le contenu de la page. On y met toutes les balises de textes, d'images, de liens,...
+
+### Les commentaires en HTML
+
+Les commentaires dans le code sont une bonne pratique à avoir. Ils permettent de donner des informations complémentaires à ceux qui retravaillerons dans votre code. Généralement pour l'HTML, vu que c'est la base, il y a peu d'intérêt de commenter. Mais cela peut-être une bonne manière de vous organiser, surtout au début.
+
+```html
+<p> Je suis un texte visible <!-- je suis un commentaire invisible --></p>
+```
 
 ## Quelques balises pour mettre en forme
 
+Maintenant qu'on en sait un peu plus sur comment est structuré une page web basique, voyons un peu comment mettre tous ça en page.
+
+Il existe une multitude de balises à utiliser pour rédiger un document HTML, nous verrons les plus utiles. Surtout n'hésite pas à consulter la documentation officielle pour en savoir plus et en découvrir d'autre.
+
+### La balise \<div>
+
+La **div**ision est un conteneur. Cette balise permet de structurer sa page en "bloc". On a généralement un bloc "header", "content", "sidebar" et "footer". Dans ces balises on insérera le contenu adéquat.
+
+```html
+<div id="header">
+  <p>contenu du header</p>
+</div>
+```
+
+### La balise \<p>
+
+P pour paragraphe, c'est la balise la plus courante pour rédiger du texte. C'est un bloc qui est suivis d'un saut à la ligne. On peut mettre la balise \<p> dans un \<div> mais jamais de \<p> dans un autre.
+
+```html
+<p>Je suis un paragraphe</p>
+```
+
+### Les balises \<h1>, \<h2>, \<h3>, \<h4>, \<h5>, \<h6>
+
+Ce sont les balises de titre. Il y en a 6 au total et pas plus. Chaque titre inclut un saut à la ligne. Le style de chaque titre est pré-défini par le navigateur mais peut être changé dans le style css.
+
+```html
+<h1>Je suis un titre de niveau 1, le plus important<h1>
+<h2>Je suis un titre de niveau 2<h2>
+<h3>Je suis un titre de niveau 3<h3>
+<h4>Je suis un titre de niveau 4<h4>
+<h5>Je suis un titre de niveau 5<h5>
+<h6>Je suis un titre de niveau 6, le moins important<h6>
+```
+
+> :bulb: N'hésite pas à ouvrir VS code et à expérimenter ces balises. Pas besoin de grand chose, juste un fichier .html avec ces balises suffiront.
+
 ## Les tableaux HTML
 
-## Tips / Astuces
+## Tips / Astuces / Liens
 
-Optionnel, renseigner les bonnes pratiques, des astuces de développeurs avancés, des méthodes de travail
+TODO: Liens vers la doc HTML
 
 ## Conclusion
 
