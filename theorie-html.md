@@ -156,6 +156,9 @@ Ce sont les balises de titre. Il y en a 6 au total et pas plus. Chaque titre inc
 
 > :bulb: N'hésite pas à ouvrir VS code et à expérimenter ces balises. Pas besoin de grand chose, juste un fichier .html avec ces balises suffiront.
 
+![titres](/Images/titres1.png)
+![titres](/Images/titres2.png)
+
 ## Les tableaux HTML
 
 ## Tips / Astuces / Liens
