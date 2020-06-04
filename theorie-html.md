@@ -6,9 +6,9 @@ Voyons ensemble de quoi est constitué une page HTML typique. Ensuite on verra v
 
 ## Table des matières
 
-1. [Le squelette d'une page HTML](#Le-squelette-d'une-page-HTML)
-2. [Quelques balises pour mettre en forme](/theorie-html-balises#Quelques-balises-pour-mettre-en-forme)
-3. [Les tableaux HTML](/theorie-html-tableaux#Les-tableaux-HTML)
+1. Le squelette d'une page HTML
+2. [Quelques balises pour mettre en forme](/theorie-html-balises)
+3. [Les tableaux HTML](/theorie-html-tableaux)
 
 ## Fichiers
 
@@ -42,7 +42,7 @@ Elles peuvent être imbriquées l'une dans l'autre.
 On commence toujours par la balise entrante, puis le contenu, ensuite on referme la balise.
 
 ```html
-<p> Salut </p>
+<p>Salut</p>
 ```
 
 > Le nom de la balise se met entre **< >**, ce nom est définit dans les spécifications HTML, on ne met pas ce que l'on veut.
@@ -79,7 +79,7 @@ Cette balise prend généralement l'attribut **lang** qui permet de définir la 
 
 ## La balise \<head>
 
-Elle détermine l'entête du document et contient les méta-informations (infos concernant la page).
+Elle détermine l'entête du document et contient les méta-informations (infos concernant la page). Ce sont des infos qui ne sont pas visibles des visiteurs de votre page mais qui servent aux moteurs de recherches notamment..
 
 ### La balise \<title>
 
@@ -106,6 +106,8 @@ Quelques exemples de balises **\<meta>**:
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 ```
 
+> Leurs noms sont plutôt explicite.
+
 ## La balise \<body>
 
 C'est elle qui contient le contenu de la page. On y met toutes les balises de textes, d'images, de liens,...
@@ -118,6 +120,8 @@ Les commentaires dans le code sont une bonne pratique à avoir. Ils permettent d
 <p> Je suis un texte visible <!-- je suis un commentaire invisible --></p>
 ```
 
-Faisons une toute petite pause théorique. Petit exercice: Ouvrez VSCode et essayer de recréer un squelette HTML simple sans regarder l'exemple tout au dessus.
+Faisons une toute petite pause théorique. 
+
+Petit exercice: Ouvrez VSCode et essayer de recréer un squelette HTML simple sans regarder l'exemple tout au dessus.
 
 Si tout s'est bien passé, [passons à la suite.](/theorie-html-balises.md)
