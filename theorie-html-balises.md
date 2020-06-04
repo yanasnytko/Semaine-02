@@ -16,6 +16,15 @@ La **div**ision est un conteneur. Cette balise permet de structurer sa page en "
 </div>
 ```
 
+> :wrench: Vite fait, voyons ce que sont ces blocs:
+
+* Header: c'est la tête de votre page, dans ce bloc on va insérer le logo de notre site ainsi qu'un menu. Il se trouve en haut de la page.
+* Content: c'est le contenu de notre page, tous les textes et images que les visiteurs verront. En fonction de la masse de contenu à afficher, il peut être judicieux d'imbriquer d'autres blocs à l'intérieur de content pour une meilleur organisation ou pour styliser votre contenu autrement (exemple: "mes diplômes", "mon parcours", "mes skills",...)
+* Sidebar: n'est pas toujours présent, sert a insérer un menu sur le côté ou tout autre contenu qui doit apparaître à côté du content.
+* Footer: c'est le pied de page, c'est là qu'on marque les copyrights, qu'on insère un menu ou quelques informations supplémentaires.
+
+> Tout ceci n'est pas à respecter à la lettre. Vous pouvez casser les codes, mais attention, soyez sûr de ce que vous faites. :smile:
+
 ## La balise \<p>
 
 P pour paragraphe, c'est la balise la plus courante pour rédiger du texte. C'est un bloc qui est suivis d'un saut à la ligne. On peut mettre la balise \<p> dans un \<div> mais jamais de \<p> dans un autre.
@@ -73,10 +82,13 @@ Met le texte entre balise *en italique.*
 <h2>Je suis un titre normal <span style="color:red">mais moi je serai en couleur rouge.</span></h2>
 ```
 
+## La balise \<img>
+
+## La balise \<a>
+
 ## Encore quelques balises
 
 Il existe encore pleins de balises, mais le but de ce premier cours n'est pas de toutes les voir, ni de toutes les retenir. Un des principes du coding, c'est de connaître suffisamment de concepts que pour pouvoir accomplir son travail, savoir que certaines choses existes et d'allez relire la documentation si besoin ou de faire des recherches sur le net.
 
-> :wrench: [Tags HTML sur W3School](https://www.w3schools.com/tags/)
-
-> :wrench: [Tags HTML sur MDN](https://developer.mozilla.org/fr/docs/Web/HTML/Element)
+> :book: [Tags HTML sur W3School](https://www.w3schools.com/tags/)
+> :book: [Tags HTML sur MDN](https://developer.mozilla.org/fr/docs/Web/HTML/Element)
