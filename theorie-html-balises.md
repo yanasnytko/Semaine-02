@@ -144,7 +144,6 @@ Il existe encore pleins de balises, mais le but de ce premier cours n'est pas de
 
 * Lire la doc de chacune des balises vue dans cette théorie.
 * Manipuler les balises vue, essaye différentes choses.
-* Vois les balises suivantes: ul, ol, li. Elles seront vue en temps et en heure, mais elle feront bonne impression dans ton exercice.
 * Essaye de trouver comment mettre une vidéo ou du son dans ta page. Ce n'est absolument pas nécessaire pour l'exercice, mais ça te ferra chercher un peu la documentation.
 
 Passons maintenant [aux tableaux](theorie-html-tableaux.md)

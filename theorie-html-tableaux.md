@@ -50,7 +50,7 @@ Remplissons notre tableau avec quelques lignes et cellules.
 
 > Il y a encore quelques balises intéressantes à connaître pour personnaliser vos tableaux, voici un lien pour en savoir plus.
 >
-> :bulb: https://www.w3schools.com/html/html_tables.asp
+> :book: https://www.w3schools.com/html/html_tables.asp
 >
 > Nous verrons un peu plus loin comment mettre un peu de couleur à ce pauvre tableau tout triste.
 
@@ -94,4 +94,8 @@ C'est bien joli d'ouvrir une balise de liste, mais sans rien dedans ça fonction
 </ul>
 ```
 
-Phew! Ca en fait des nouvelles choses à assimiler. Tout va bien?? On va faire une petite pause avant d'attaquer la partie la plus amusante: LE CSS!!
+Phew! Ca en fait des nouvelles choses à assimiler. Tout va bien?? On va faire une petite pause avant d'attaquer la partie la plus amusante: [LE CSS!!](theorie-css.md)
+
+## Pour allez plus loin
+
+> :bulb: Si tout ce que tu viens de voir te semble clair, tu peux déjà commencer à rédiger ton C.V. en HTML et à le mettre en page. On le rendra plus beau par après.
