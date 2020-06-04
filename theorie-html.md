@@ -2,13 +2,13 @@
 
 ## Introduction
 
-Voyons ensemble de quoi est constitué une page HTML typique. Ensuite on verra vos premières balises pour tout doucement façonner votre page. On terminera avec l'utilisation des tableaux.
+Voyons ensemble de quoi est constitué une page HTML typique. Ensuite on verra vos premières balises pour tout doucement façonner votre page. On terminera avec l'utilisation des tableaux et des listes.
 
 ## Table des matières
 
 1. Le squelette d'une page HTML
 2. [Quelques balises pour mettre en forme](/theorie-html-balises.md)
-3. [Les tableaux HTML](/theorie-html-tableaux.md)
+3. [Les tableaux et les listes](/theorie-html-tableaux.md)
 
 ## Fichiers
 

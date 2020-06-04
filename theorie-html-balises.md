@@ -46,8 +46,6 @@ Ce sont les balises de titre. Il y en a 6 au total et pas plus. Chaque titre inc
 <h6>Je suis un titre de niveau 6, le moins important<h6>
 ```
 
-![Balise hn rendu](/Images/titres2.png)
-
 ## La balise \<blockquote>
 
 Cette balise sert à insérer une citation. Le bloc est suivi d'un retour à la ligne
@@ -84,11 +82,69 @@ Met le texte entre balise *en italique.*
 
 ## La balise \<img>
 
+Cette balise sert à insérer une image dans votre page. Elle peut se placer un peu où vous voulez dans votre **\<body>**. Généralement dans un **\<div>** ou dans un **\<p>**
+
+```html
+<img src="lien vers mon image" alt="description de l'image"/>
+```
+
+* **src:** tout simplement un lien externe ou interne vers votre fichier image.
+* **alt:** une description que les utilisateurs verront si votre image met du temps à se charger, si elle n'est plus en ligne ou pour aider la synthèse vocale.
+
+Évidement une balise **\<img>** peut prendre d'autres attributs, notamment des valeurs de taille, mais les deux vu ci dessus sont les plus courant.
+
+> :book: [quelques infos complémentaire sur cette balise](https://www.w3schools.com/tags/tag_img.asp)
+
 ## La balise \<a>
+
+Il est maintenant temps d'insérer un lien dans votre code. Pour ce faire on utilise la balise \<a>. Elle se place un peu où vous voulez et doit surtout englober un contenu comme du texte, une image ou même une \<div>.
+
+```html
+<a href="mon lien" title="titre du lien">Mon texte cliquable</a>
+```
+
+* **href:** c'est l'attribut qui prend comme valeur le lien vers lequel l'utilisateur sera redirigé en cliquant. Il peut être externe ou interne. 
+* **title:** sert à préciser à l'utilisateur une information par rapport au lien lorsqu'il survole le lien avec sa souris.
+
+## Les liens interne et externe
+
+Lorsque vous avez besoin de faire référence à un fichier il est possible d'utiliser deux méthode. Soit votre fichier se trouve déjà sur internet mais est extérieur à votre projet (lien vers un autre site, vers une ressource ou image,...), dans ce cas vous devez introduire le lien http de ce fichier directement dans votre attribut **src** ou **href**.
+
+Si votre ressource fait partie de votre projet, alors vous pouvez y faire référence directement. Voyons un rapide exemple:
+
+![File tree](Images/filetree.png)
+
+Ici je possède deux images, une dans un dossier *Images* et l'autre à la racine de mon projet. Regardez le bout de code suivant
+
+```html
+<!-- index.html-->
+<body>
+  <div id="header">
+    <img src="logo.jpg" alt="mon logo"/>
+  </div>
+  <div id="content">
+    <img src="/images/monImage.jpg">``
+  </div>
+</body>
+```
+
+La source est différente en fonction d'où ce situe mon image. Pour le moment on ne va pas trop rentrer dans le détail, mais essayez de rester cohérent avec vous même et de placer vos fichiers correctement.
 
 ## Encore quelques balises
 
-Il existe encore pleins de balises, mais le but de ce premier cours n'est pas de toutes les voir, ni de toutes les retenir. Un des principes du coding, c'est de connaître suffisamment de concepts que pour pouvoir accomplir son travail, savoir que certaines choses existes et d'allez relire la documentation si besoin ou de faire des recherches sur le net.
+Il existe encore pleins de balises, mais le but de ce premier cours n'est pas de toutes les voir, ni de toutes les retenir. Un des principes du coding, c'est de connaître suffisamment de concepts que pour pouvoir accomplir son travail, savoir que certaines choses existes et d'allez lire la documentation si besoin ou de faire des recherches sur le net.
 
 > :book: [Tags HTML sur W3School](https://www.w3schools.com/tags/)
+>
 > :book: [Tags HTML sur MDN](https://developer.mozilla.org/fr/docs/Web/HTML/Element)
+
+## Pour allez plus loin
+
+> :bulb: Si tout ce que tu viens de voir te semble clair, voici quelques pistes pour allez un peu plus loin dans la matière et qui te servira pour ton exercice de cette semaine.
+
+* Lire la doc de chacune des balises vue dans cette théorie.
+* Manipuler les balises vue, essaye différentes choses.
+* Vois les balises suivantes: ul, ol, li. Elles seront vue en temps et en heure, mais elle feront bonne impression dans ton exercice.
+* Essaye de trouver comment mettre une vidéo ou du son dans ta page. Ce n'est absolument pas nécessaire pour l'exercice, mais ça te ferra chercher un peu la documentation.
+
+Passons maintenant [aux tableaux](theorie-html-tableaux.md)
