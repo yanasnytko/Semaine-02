@@ -7,8 +7,8 @@ Voyons ensemble de quoi est constitué une page HTML typique. Ensuite on verra v
 ## Table des matières
 
 1. Le squelette d'une page HTML
-2. [Quelques balises pour mettre en forme](/theorie-html-balises)
-3. [Les tableaux HTML](/theorie-html-tableaux)
+2. [Quelques balises pour mettre en forme](/theorie-html-balises.md)
+3. [Les tableaux HTML](/theorie-html-tableaux.md)
 
 ## Fichiers
 
