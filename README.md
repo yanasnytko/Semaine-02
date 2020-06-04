@@ -6,4 +6,4 @@ On va réaliser ensemble une première ébauche de ton future CV en ligne. C'est
 
 Commençons par prendre connaissance des **[objectifs](objectifs.md)** de cette semaine.
 
-C'est partit pour la **[théorie](theorie-html.md)**.
+C'est partit pour la **[théorie HTML](theorie-html.md)**.
