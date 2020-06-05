@@ -59,7 +59,6 @@ Pour ce faire: créer un nouveau repository nommé le: resume (C.V. en anglais),
 Répétez les étapes que vous avez vu précédement dans la semaine d'info pour héberger votre page.
 Si vous rencontrez le moindre problème n'hésitez pas à contacter l'un des formateurs présents en ligne.
 
-
 ## Objectifs
 
 Le but de l'exercice n'est pas que votre C.V. web ressemble trait pour trait à votre C.V. créé sur canva mais que vous puissiez explorer un large panel de balises HTML et de propriétés CSS afin de parvenir à un résultat similaire.
