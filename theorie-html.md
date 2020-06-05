@@ -49,7 +49,7 @@ On commence toujours par la balise entrante, puis le contenu, ensuite on referme
 
 ### Attributs et valeurs
 
-Certaines balises peuvent se voir attribuer des attributs. Ils permettent de préciser certains paramètres (par exemple: l'adresse d'un lien, la source d'une image,...)
+Certaines balises peuvent se voir attribuer des attributs. Ils permettent de préciser certains paramètres (par exemple: l'adresse d'un lien, la source d'une image, le style d'une div,...)
 
 ```html
 <img src="mon lien"></img>
@@ -79,7 +79,7 @@ Cette balise prend généralement l'attribut **lang** qui permet de définir la 
 
 ## La balise \<head>
 
-Elle détermine l'entête du document et contient les méta-informations (infos concernant la page). Ce sont des infos qui ne sont pas visibles des visiteurs de votre page mais qui servent aux moteurs de recherches notamment..
+Elle détermine l'entête du document et contient les méta-informations (infos concernant la page). Ce sont des infos qui ne sont pas visibles des visiteurs de votre page mais qui servent aux moteurs de recherches notamment. On peut aussi y insérer des règles de styles pour votre page.
 
 ### La balise \<title>
 
