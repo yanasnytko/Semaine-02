@@ -1,4 +1,4 @@
-# Les bases du CSS
+# Les bases du CSS pour débuter
 
 Qu'est-ce que le CSS? Cela veut dire Cascading Style Sheet ou "feuille de style en cascade". Elle permet de générer la présentation de votre page HTML. Ainsi, au lieu de mettre votre code dédié au style dans la balise \<head> ou directement dans chaque balise que vous souhaitez styliser, vous pouvez mettre toutes vos règles dans une ou plusieurs feuilles de style.
 
