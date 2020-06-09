@@ -143,4 +143,4 @@ Voyez comme un simple espace peut faire ou défaire votre page. Soyez attentif  
 
 Pas si compliqué, n'est-ce pas??
 
-Il reste un tout petit sujet à abordé pour que tu sois fin prêt à te lancer dans l'exercice de la semaine: les propriétés
+Il reste un tout petit sujet à abordé pour que tu sois fin prêt à te lancer dans l'exercice de la semaine: [les propriétés](theorie-css-proprietes.md)

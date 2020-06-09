@@ -6,6 +6,10 @@ Il existe une multitude de balises à utiliser pour rédiger un document HTML, n
 
 > :bulb: Ouvrez VS code et expérimentez les balises qu'on va voir à partir d'ici. Pas besoin de grand chose, juste un fichier .html avec ces balises suffiront ou tu peux reprendre le squelette créer précédemment.
 
+## La balise \<section>
+
+TODO: théorie
+
 ## La balise \<div>
 
 La **div**ision est un conteneur. Cette balise permet de structurer sa page en "bloc". On a généralement un bloc "header", "content", "sidebar" et "footer". Dans ces balises on insérera le contenu adéquat.
