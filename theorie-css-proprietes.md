@@ -222,7 +222,79 @@ body{
 
 ## Dimensions, margin et padding
 
+### Inline et block
 
+Sans CSS, les éléments d'un block prennent toute la largeur de leur parent et sont suivis d'un retour à la ligne (body, html, p, div,...)
+
+Les éléments inline (span, a, strong, img,...) prennent la largeur de leur contenu et ne sont pas suivis d'unretour à la ligne.
+
+![inline-block](Images/inline-block.png)
+
+### width & height (max & min)
+
+> width = largeur
+>
+> height = hauteur
+
+Prends comme valeurs: **auto**, **px**, **%** ou **em**
+
+Il est également possible de préciser une valeur minimim ou maximum pour ces tailles.
+
+```css
+img{
+  max-width: 100px;
+}
+```
+
+> Dans cet exemple, l'image ne ferra jamais plus de 100 px de large.
+
+### margin & padding
+
+![marges](Images/marges.png)
+
+```css
+.same{
+  margin: 10px;
+  padding: 5px;
+}
+.different{
+  margin-top: 10px;
+  margin-bottom: 10px;
+  margin-left: 5px;
+  margin-right: 2px;
+}
+```
+
+Ce qu'il faut retenir:
+
+* Padding: marge intérieur
+* Margin: marge extérieur
+* Par défaut la valeur s'applique sur chaque côté (top, right, bottom, left) mais il est possible de préciser une valeur différente pour chaque côté.
+* Peut s'écrire en une seule ligne (top, right, bottom, left)
+
+## Positionnements
+
+### float
+
+```css
+.img{
+  float:left;
+}
+```
+
+Permet de placer un contenu en dehors du "flux" de la page et le reste des blocks "coule" autour. Prends **left**, **right** ou **none** comme valeur.
+
+![float](Images/float.png)
+
+### clear
+
+```css
+.texte{
+  clear: both;
+}
+```
+
+Permet d'empêcher le contournement des blocs flottants. Prends **left**, **right** ou **both** comme valeur.
 
 ## L'auto-complete de VSCode
 
