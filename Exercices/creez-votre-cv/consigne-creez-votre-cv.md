@@ -16,7 +16,7 @@ Choisissez un modèle de C.V. simple à mettre en page tel que celui ci:
 
 Remplissez le sommairement, le contenu n'est pas la matière principale de cet exercice.
 
-Maintenant que vous avez un visuel sur lequel vous baser, prenez comme base les fichiers index.html et style.css joints dans ce dossier et réalisez la structure de votre page web.
+Maintenant que vous avez un visuel sur lequel vous baser, prenez comme base les fichiers **index.html** et **style.css** joints dans ce dossier et réalisez la structure de votre page web.
 
 Cette structure devra comprendre:
 

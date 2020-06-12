@@ -143,4 +143,6 @@ Voyez comme un simple espace peut faire ou défaire votre page. Soyez attentif  
 
 Pas si compliqué, n'est-ce pas??
 
+> :video_game: Petit jeu sympa pour s'entraîner aux sélecteurs: [http://flukeout.github.io/]
+
 Il reste un tout petit sujet à abordé pour que tu sois fin prêt à te lancer dans l'exercice de la semaine: [les propriétés](theorie-css-proprietes.md)
