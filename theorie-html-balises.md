@@ -6,9 +6,35 @@ Il existe une multitude de balises à utiliser pour rédiger un document HTML, n
 
 > :bulb: Ouvrez VS code et expérimentez les balises qu'on va voir à partir d'ici. Pas besoin de grand chose, juste un fichier .html avec ces balises suffiront ou tu peux reprendre le squelette créer précédemment.
 
-## La balise \<section>
+## Un peu de sémantique
 
-TODO: théorie
+Un élément sémantique est un élément avec une signification.
+
+Exemple d'une balise non-sémantique: \<div>, \<span>
+
+Exemple d'une balise sémantique: \<article>, \<section>
+
+Le but de ces balises est de donner au navigateur et au développeur une description du contenu qui suit. Par exemple il existe une balise \<header>, ce qui permet d'indiquer à votre navigateur que tout le contenu qui s'y trouvera ferra partie du haut de votre page. C'est une alternative et une bonne pratique par rapport à \<div class="header">
+
+Voici la liste de ces balises: 
+
+* \<article>
+* \<aside>
+* \<details>
+* \<figcaption>
+* \<figure>
+* \<footer>
+* \<header>
+* \<main>
+* \<mark>
+* \<nav>
+* \<section>
+* \<summary>
+* \<time>
+
+![semantic](https://www.w3schools.com/html/img_sem_elements.gif)
+
+> :bulb: [plus d'infos](https://www.w3schools.com/html/html5_semantic_elements.asp)
 
 ## La balise \<div>
 
