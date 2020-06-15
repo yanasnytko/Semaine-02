@@ -24,13 +24,17 @@ Prenez en compte le bout de code suivant pour les explications qui vont suivre:
 ## Enfant et descendance
 
 \<h1> et \<p> sont des enfants de \<div>.
+
 \<a> est un descendant de \<p>
 
 ### Parent et ancêtre
 
 \<div> est parent de \<h1> et \<p>
+
 \<p> est parent de \<a>
+
 \<div> est l'ancêtre de \<a>
+
 
 Ces notions de parentés vont permettre de faire de sélection plus précise dans notre CSS.
 
