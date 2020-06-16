@@ -296,6 +296,100 @@ Permet de placer un contenu en dehors du "flux" de la page et le reste des block
 
 Permet d'empêcher le contournement des blocs flottants. Prends **left**, **right** ou **both** comme valeur.
 
+![un exemple de float et clear](Images/float&clear.png)
+
+
+### display
+
+Cette propriété va permettre une mise en forme avancée. Voici quelques valeurs possibles: **block**, **inline**, **inline-block**, **none**,... Certaines de ces valeurs sont appliquées par défaut en fonction des éléments (par exemple un \<p> ou un \<div> prend par défaut un **display:block**)
+
+### display: block
+
+```css
+a{
+  display: block;
+}
+```
+
+Permet de changer les éléments **inline** en block. Par défaut il prend toute la largeur de son parent et est suivi d'un retour à la ligne.
+
+### display: inline
+
+```css
+p{
+  display: inline;
+}
+```
+
+Permet de transformer l'élement en type inline ce qui aura pour effet de le laisser sur une seule ligne.
+
+### display: none
+
+```css
+img{
+  display: none;
+}
+```
+
+Permet de retirer un élement de la page. Il ne sera plus visible et ne prendra plus de place. 
+
+### position
+
+Cette propriété permet de positionner les éléments dans la page. Prends comme valeurs: **static**, **relative**, **absolute** ou **fixed**
+
+### position: static
+
+Valeur par défaut de tous les éléments. Un élément avec position static n'est positionné d'aucune manière spéciale.
+
+### position: relative
+
+```css
+.content a {
+  position: relative;
+  top: -15px
+}
+```
+
+Un élément se comporte de la même manière que avec static. On peut se servir des propriétés **top**, **left**, **right**, **bottom** pour déplacer l'élement. Le reste du contenu ne sera pas affecté.
+
+### position: fixed
+
+```css
+.nav {
+  position:fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+}
+```
+
+Un élément positionné avec **fixed** ne bougera pas. Il sortira du flux de la page et se positionnera par dessus les autres éléments et ce même si on fait défiler la page. Sa position est définie par rapport à l'espace affichable par le navigateur.
+
+### position: absolute
+
+Un élément en position absolute sort du flux et se positionne par rapport à son dernier ancêtre positionné. Si aucun ancêtre n'est positionné, il se positionnera par rapport à \<html>. On doit positionner le parent avec une position relative, fixed ou absolute.
+
+
+```css
+h2 {
+  position: absolute;
+  left: 100px;
+  top: 150px;
+}
+```
+
+## Flexbox
+
+On vient de voir pas mal de propriété. Vous devriez être capable de réaliser l'exercice de la semaine, mais il me reste à vous parler de Flexbox.
+
+Flexbox est un outil qui permet une certaine flexibilité dans la mise en page de vos éléments. Le principe est simple, on place nos éléments dans un conteneur (une \<div>) et on gère le comportement de nos éléments au sein de ce conteneur via les propriétés de flexbox.
+
+Le meilleur moyen pour comprendre flexbox c'est de l'expérimenté par vous même. Je vous recommande la lecteur des deux sites suivants:
+
+>[CSS-Tricks](https://css-tricks.com/snippets/css/a-guide-to-flexbox/)
+> 
+>[Openclassroom](https://openclassrooms.com/fr/courses/1603881-apprenez-a-creer-votre-site-web-avec-html5-et-css3/3298561-faites-votre-mise-en-page-avec-flexbox)
+
 ## L'auto-complete de VSCode
 
 Si vous ne savez pas exactement quelle propriété existe ou comment elle s'écrit, VSCode est là pour vous aider. En effet quand vous travaillez dans un document CSS ou HTML enregistré, VSCode détecte votre syntaxe et vous aide à compléter votre frappe.

@@ -46,7 +46,7 @@ Remplissons notre tableau avec quelques lignes et cellules.
 
 * **th:** Table Header = En-tête du tableau.
 * **tr:** Table Row = Ligne du tableau
-* **td:** Table Date = Cellule contenant toute sorte d'infos (texte, image,...)
+* **td:** Table Data = Cellule contenant toute sorte d'infos (texte, image,...)
 
 > Il y a encore quelques balises intéressantes à connaître pour personnaliser vos tableaux, voici un lien pour en savoir plus.
 >
