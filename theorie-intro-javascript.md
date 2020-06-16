@@ -182,25 +182,26 @@ Les opérateurs permettent de manipuler les variables. Nous avons déjà vu dans
 
 La MDN possède une liste de ces opérateurs, dont je vais vous donner quelques exemples, ils sont essentiels à connaître par coeur pour le bon fonctionnement des manipulations que vous souhaitez réaliser sur vos données.
 
-`+` -> Addition
-`-` -> Soustraction
-`*` -> Multiplication
-`/` -> Division
-`=` -> Affectation
-`%` -> Modulo (retourne le reste du nombre de gauche divisé par le nombre de droite par exemple 5/2 retournera 1, 4/2 retournera 0. Le modulo permet entre autre donc de vérifier si oui ou non le chiffre de gauche est divisible par 2)
-`<` -> Le nombre de gauche est plus petit que le nombre de droite
-`>` -> Le nombre de gauche est plus grand que le nombre de droite
-`>=` -> Le nombre de gauche est plus grand ou égal au nombre de droite
-`<=` -> Le nombre de droite est plus petit ou égal au nombre de droite
-`++` -> **Incrémentation** (on augmente le nombre de 1)
-`--` -> **Décrémentation** (on diminue le nombre de 1)
-`||` -> Opérateur de comparaison "ou"
-`&&` -> Opérateur de comparaison "et"
-`===` -> Opérateur de comparaison "strictement égal à"
-`==` -> Opérateur de comparaison "égal à"
-`!==` -> Opérateur de comparaison "strictement différent de"
-`!=` -> Opérateur de comparaison "différent de"
-
+- `+` -> Addition
+- `-` -> Soustraction
+- `*` -> Multiplication
+- `/` -> Division
+- `=` -> Affectation
+- `%` -> Modulo (retourne le reste du nombre de gauche divisé par le nombre de droite par exemple 5/2 retournera 1, 4/2 retournera 0. Le modulo permet entre autre donc de vérifier si oui ou non le chiffre de gauche est divisible par 2)
+- `<` -> Le nombre de gauche est plus petit que le nombre de droite
+- `>` -> Le nombre de gauche est plus grand que le nombre de droite
+- `>=` -> Le nombre de gauche est plus grand ou égal au nombre de droite
+- `<=` -> Le nombre de droite est plus petit ou égal au nombre de droite
+- `++` -> **Incrémentation** (on augmente le nombre de 1)
+- `--` -> **Décrémentation** (on diminue le nombre de 1)
+- `||` -> Opérateur de comparaison "ou"
+- `&&` -> Opérateur de comparaison "et"
+- `===` -> Opérateur de comparaison "strictement égal à"
+- `==` -> Opérateur de comparaison "égal à"
+- `!==` -> Opérateur de comparaison "strictement différent de"
+- `!=` -> Opérateur de comparaison "différent de"
+- `+=` -> Affectation après addition
+- `-=` -> Affectation après soustraction
 ### Les fonctions
 
 Une fonction est un ensemble d'instructions menant à la réalisation d'une tâche.
