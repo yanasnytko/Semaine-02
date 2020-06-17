@@ -1,6 +1,171 @@
-body{
-  width: 100%
+/* RESET */
+html {
+  box-sizing: border-box;
+  font-size: 16px;
 }
-a{
-  
+*,
+*:before,
+*:after {
+  box-sizing: inherit;
+}
+body,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+ol,
+ul {
+  margin: 0;
+  padding: 0;
+  font-weight: normal;
+}
+ol,
+ul {
+  list-style: none;
+}
+
+/* General */
+body {
+  margin: 0 20%;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+main,
+header {
+  width: 70%;
+  float: right;
+}
+header {
+  background-color: #f39200;
+  color: white;
+}
+a,
+abbr {
+  text-decoration: none;
+  color: black;
+}
+a:hover {
+  text-decoration: underline;
+}
+
+#skills img {
+  width: 70%;
+  display: block;
+  margin: 1rem auto;
+}
+/* Titres */
+header {
+  text-align: right;
+  padding-bottom: 1rem;
+  margin-bottom: 1rem;
+  height: 166px;
+}
+h1 {
+  font-size: 3rem;
+}
+h2 {
+  font-size: 2rem;
+}
+h1,
+h2,
+h3 {
+  text-transform: uppercase;
+  padding: 0 1.5rem;
+}
+main h3 {
+  color: #f39200;
+  font-weight: bold;
+  padding-bottom: 0.1em;
+}
+
+/* Textes */
+sup,
+.point {
+  display: inline-block;
+  margin-left: -4px;
+  font-size: 0.8rem;
+}
+aside sup {
+  margin-right: -4px;
+}
+
+.competence {
+  color: #009fe3;
+}
+
+p {
+  padding: 0 1rem;
+}
+
+/* Tables */
+td {
+  padding-bottom: 0.5em;
+}
+th {
+  width: 30%;
+  text-align: right;
+  padding-right: 1rem;
+  vertical-align: top;
+  font-weight: normal;
+}
+
+/* À propos */
+aside {
+  width: 30%;
+  background-color: #009fe3;
+  color: white;
+  min-height: 1200px;
+}
+img#profil {
+  display: block;
+  padding-top: 1rem;
+  margin: 0 auto 1rem;
+  height: 166px;
+  width: auto;
+}
+aside a {
+  color: white;
+}
+
+aside p,
+#infos li {
+  padding-bottom: 0.8rem;
+}
+#interets li,
+#languages li {
+  padding-bottom: 0.4rem;
+}
+li:last-child {
+  margin-bottom: 1.4rem;
+}
+ul {
+  padding-left: 3rem;
+}
+.langLevel {
+  text-indent: 20px;
+  margin-top: -0.4rem;
+}
+address {
+  padding-left: 1.4rem;
+}
+
+/* pictos */
+li img {
+  float: left;
+  position: relative;
+  margin-right: 0.5em;
+}
+#birthday img,
+#mail img {
+  top: 0.4rem;
+}
+#address img {
+  top: 0.8rem;
+}
+#tel img,
+#gitHub img,
+#linkedIn img {
+  top: 0.3rem;
 }

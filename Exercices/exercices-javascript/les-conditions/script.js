@@ -39,29 +39,3 @@ function check2(leftNumber, rightNumber) {
   }
 }
 check2(leftNumber, rightNumber);
-
-// Exercice 3.4
-let studentArray = [
-  'Lionel',
-  'Aliyou',
-  'Sarra',
-  'Regine',
-  'Marie Solange',
-  'Nathalie',
-  'Edouard',
-  'Samantha',
-  'Yana',
-  'Thierry',
-  'Jeremie',
-];
-console.log(studentArray[6]);
-
-// Exercice 3.5
-console.log(studentArray[8]);
-
-// Exercice 3.6
-let student = { name: 'Snytko', firstname: 'Yana', age: 22 };
-console.log(student);
-
-// Exercice 3.7
-console.log(student.firstname);
