@@ -11,11 +11,17 @@ React.JS, Vue.JS, Angular, Node.JS, Express.JS, Typescript, chacun de ces langag
 
 ## Table des matières
 
-1. Les variables
-2. Les types
-4. Les opérateurs
-3. Les fonctions
-5. Les conditions
+- [Vos premiers pas en Javascript](#vos-premiers-pas-en-javascript)
+  - [Introduction](#introduction)
+  - [Table des matières](#table-des-matières)
+  - [Fichiers](#fichiers)
+  - [Chapitres](#chapitres)
+    - [Les variables](#les-variables)
+    - [Les types](#les-types)
+    - [Les opérateurs](#les-opérateurs)
+    - [Les fonctions](#les-fonctions)
+    - [Les conditions](#les-conditions)
+  - [Conclusion](#conclusion)
 
 ## Fichiers
 
@@ -29,13 +35,17 @@ Le cours en français d'OpenClassRoom: https://openclassrooms.com/fr/courses/298
 Une variable est un conteneur. Elle contient les informations dont nous avons besoin pour les fonctionnalités de notre application, notre site.
 Une variable c'est par exemple:
 
-`const firstname = "Julie";`
+```js
+const firstname = "Julie";
+```
 
 const (pour constante) détermine la portée de la variable, en l'occurence elle ne peut être réassignée à une nouvelle valeur car c'est une valeur constante, en effet, mon prénom est Julie et sauf demande express' de ma part aux autorités communales, il en restera tel quel toute ma vie.
 
 let défini une variable dont la valeur est réassignable, par exemple:
 
-`let javascriptTeacher = "Julie";`
+```js
+let javascriptTeacher = "Julie";
+```
 
 Nous ne sommes à l'abris de rien, un évennement m'empechant de donner cours pourrait avoir lieu, un remplaçant serait donc désigné, cette variable doit donc pouvoir être réassignable si besoin.
 
@@ -70,14 +80,18 @@ Pour toute opération sur des chiffres retenez qu'il faut que la variable soit d
 
 Voici un exemple de chaîne de caractère:
 
-`const firstName= "Julie";`
-`let age = "30 ans";`
+```js
+const firstName= "Julie";
+let age = "30 ans";
+```
 
 Comme nous l'avons vu précédement ma variable est préfixée `let` ou `const` en fonction de sa portée, son nom est le plus explicite possible (firstName), elle est attribuée grâce au signe `=` déclarée chaîne de caractère grâce aux guillemets `" "`, et pour terminé, comme à chaque fin de déclaration le `;` qui indique au navigateur de passer à la ligne suivante.
 
 Imaginons que je souhaite afficher les valeurs de ces variables dans ma console:
 
-`console.log(firstname + " " + age);`
+```js
+console.log(firstname + " " + age);
+```
 
 Le résultat affiché serait "Julie 30 ans". Cette opération s'appelle une concaténation. Le `+` est l'opérateur, il permet aux chaînes de caractères contenues par `firstname` et `age` d'être enchaînées. Si vous êtes attentifs vous aurez remarqué que j'ai ajouté des guillemets avec un espace vide, il permet aux deux chaînes d'être coupé par un espace, si je ne l'avais pas fais le résultat affiché serait "Julie30 ans".
 
@@ -88,12 +102,16 @@ Grâce aux nombres vous pourrez réaliser un tas d'opérations utiles à votre a
 
 Exemple de variable typée **Numbers**:
 
-`let firstNumber= 1;`
-`let secondNumer = 2;`
+```js
+let firstNumber= 1;
+let secondNumber = 2;
+```
 
 Imaginons que je souhaite afficher le résultat de l'addition de ces deux nombres:
 
-`console.log(firstNumber + secondNumber);`
+```js
+console.log(firstNumber + secondNumber);
+```
 
 Le résultat (output) de cette opération sera `3`
 
@@ -105,7 +123,9 @@ Lorsque ma variable est typée "number" je peux réaliser des opérations mathé
 
 L'objet **Booléen** en javascript est déclaré de cette façon:
 
-`let isConnected = New Boolean([valeur]);`
+```js
+let isConnected = New Boolean([valeur]);
+```
 
 Décortiquons ce bout de code:
 
@@ -129,15 +149,21 @@ Le premier élément d'un tableau est attribué à l'indice 0, le second à l'in
 Le tableau est un élément essentiel du langage, il permet de récupérer, stocker et manipuler facilement les données.
 Pour définir le type tableau il faut indiquer à javascript que vous souhaiter créer un nouveau tableau, il existe plusieurs façon de le faire:
 
-`let studentArray = New Array;`
+```js
+let studentArray = New Array;
+```
 
 Dans cet exemple nous déclarons la variable studentArray et l'attribuons à "New Array;" new représente une instruction (nouveau), et Array l'objet que nous voulons créé. Il s'agit ici d'un objet global de type Array (tableau). 
 
-`let studentArray = [];`
+```js
+let studentArray = [];
+```
 
 Dans celui-ci la variable est déclarée directement avec des crochets qui correspondent à la synthaxe décrivant un tableau vide.
 
-`let siriusTeamArray = ["Jeremy","Christophe","Julie","Laetitia","David","Vincent"];`
+```js
+let siriusTeamArray = ["Jeremy","Christophe","Julie","Laetitia","David","Vincent"];
+```
 
 Pouvez vous me dire quel est l'indice de Laetitia dans ce tableau ?
 Dans ce dernier cas le tableau est directement déclaré avec des données.
@@ -163,14 +189,16 @@ Retenez que les tableaux sont des éléments essentiels à la création de sites
 Retenez que le Javascript est un langage orienté objet. Tout est construit à partir d'un objet (variables, méthodes, fonctions...). Les objets possèdent des propriétés, on peut les comparer aux objets de la vrai vie. Par exemple je peux créer un objet Chien qui possédera comme propriété une race, une taille, un poids, une couleur de pelage, un âge, un nom. À ces propriétés viennent se joindre les valeurs correspondante au chien.
 Prenons comme exemple:
 
-`const chien = {
+```js
+const chien = {
         nom: "Tania",
         age: 9,
         race: "Cocker Anglais",
         taille: "50",
         poids: "20",
         couleur: "Roux"
-};`
+};
+```
 
 Les objets possèdent des propriétés et des méthodes qui leur sont propres. Les objets sont une notion complexe mais indispensable, nous verrons plus tard dans le cours et en plus de détail une introduction à la programmation orienté objet.
 Pour l'instant retenez simplement la manière dont un objet se présente (comme ci dessus, par exemple, chaque valeur peut correspondre à un type, on peut donc retrouver des chapines de caractères, des nombres, des tableaux ou d'autres objets au sein même des objets).
@@ -202,31 +230,36 @@ La MDN possède une liste de ces opérateurs, dont je vais vous donner quelques 
 - `!=` -> Opérateur de comparaison "différent de"
 - `+=` -> Affectation après addition
 - `-=` -> Affectation après soustraction
+- 
 ### Les fonctions
 
 Une fonction est un ensemble d'instructions menant à la réalisation d'une tâche.
 Par exemple je souhaite afficher mon prénom dans la console avec un petit message de bienvenue adapté lors de ma connexion. On peut imaginer une fonction telle que celle-ci:
 
-`function helloWhenConnected(name) {
+```js
+function helloWhenConnected(name) {
     let name = name;
     console.log("Salut" + " " + name);
 };
 
 helloWhenConnected("Julie");`
 
-Output console: "Salut Julie"
+// Output console: "Salut Julie"
+```
 
 Une fonction contient un constructeur () qui peut recevoir un ou plusieurs paramètres comme dans l'exemple ci dessus (name) et les instructions à executer englobées via {}, grâce à ces éléments on devine donc que la fonction est en fait de type objet.
 On la défini sous plusieurs formes, elle est déclarée à l'aide du mot clé function. Nous verrons plus tard qu'il est également possible de la déclarer sous forme d'une variable à l'aide ce que l'on appelle "fat arrow function" qui est un standard ECMAscript6.
 
 Une fonction peut retourner une valeur, on peut par exemple l'utiliser pour réaliser des opérations:
 
-`function multiplication(a, b){
+```js
+function multiplication(a, b){
     return a * b;
 };
 multiplication(2, 4);`
 
-Output console: 8
+// Output console: 8
+```
 
 Dans ce bout de code on appelle la fonction à l'aide de son nom suivit de son constructeur comprenant les deux paramètres que j'ai décidé de lui attribuer (2 et 4). Vous le comprendrez, les paramètres défini lors de la construction de la fonction sont en réalité une valeur abstraite destinée à être remplacée par une donnée. Cette donnée est intégré lors de l'appel à la fonction. Pour lancer une fonction il faut en effet faire appel à elle, pour ce faire vous l'avez constaté il suffit d'indiquer le nom de la fonction désirée suivie de son constructeur () et du point virgule.
 
@@ -245,19 +278,20 @@ Nous allons voir deux types de conditions: if...else, et switch Case.
 La première: if...else est littéralement traduite par "si...sinon...". Si ma condition est remplie, je performe mon opération. Sinon je ne fais rien ou je prévois une autre opération à réaliser dans ce cadre.
 
 Par exemple:
-
-`if(isConnected === true){
+```js
+if(isConnected === true){
     helloWhenConnected("Julie");
 } else {
     redirectTo("/login")
-};`
+};
+```
 
 **Si** ma variable isConnected est vérifiée à true, je lance ma fonction helloWhenConnected("Julie") **sinon**, je redirige mon utilisateur vers la page de login.
 Plutôt simple non? Il suffit de dire explicitement ce que vous désirez à votre ordinateur et il s'en occupe!
 
 Pour ce qui est du switch Case, la synthaxe et le mode de fonctionnement est assez différent. Il permet en réalité d'évaluer un plus grand nombre de conditions que dans le cadre du if...else
 
-`
+```js
 let siriusTeamArray = ["Jeremy","Christophe","Julie","Laetitia","David","Vincent"];
 
 switch (siriusTeamArray[0]) {
@@ -268,13 +302,16 @@ switch (siriusTeamArray[0]) {
   case "Christophe":
     console.log("Salut Christophe")
     break;
-    
-  // incorporez autant de case que vous le souhaitez
 
+  // incorporez autant de case que vous le souhaitez
+```
+
+```js
   default:
     redirectTo("/login");
     break;
 }`
+```
 
 Switch, passe de cas en cas jusqu'à trouver une égalité avec le paramètre entré dans son constructeur. SI l'indice 0 de mon tableau siriusTeamArray est égal au cas (case) "Jeremy" alors la console print console.log("Jeremy") et la vérification des cas suivant se stop à l'aide du mot clé "break;" (indispensable sinon le code entre dans une boucle infinie, c'est à dire le meilleur moyen pour faire planter votre navigateur). Sinon il passe au cas suivant.
 
