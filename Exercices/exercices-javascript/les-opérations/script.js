@@ -23,12 +23,11 @@ modulo(98);
 modulo(123);*/
 
 function modulo(n) {
-  let parDeux = 2;
-  let calcul = n % parDeux;
+  let calcul = n % 2;
   if (calcul === 0) {
-    console.log('Le nombre ' + n + ' est divisible par deux !');
+    console.log(`Le nombre ${n} est divisible par deux !`);
   } else {
-    console.log('Le nombre ' + n + " n'est pas divisible par deux !");
+    console.log(`Le nombre ${n} n'est pas divisible par deux !`);
   }
 }
 
@@ -86,7 +85,7 @@ console.log((fourthNumber = fourthNumber - firstNumber));
  */
 
 // Test compliqué
-let incrementCounter = 0;
+/* let incrementCounter = 0;
 function incrementOnClick() {
   document
     .getElementById('increment')
@@ -97,7 +96,14 @@ function incrementOnClick() {
         console.log('On est arrivé tout en haut !');
       }
     });
-}
+} */
+
+// sans conflit avec HTML
+let counter = 0;
+let incrementOnClick = () => {
+  counter = ++counter;
+  console.log(counter);
+};
 
 // Exercice 2.9 Décrémentation
 
@@ -122,7 +128,7 @@ function incrementOnClick() {
 */
 
 // Test compliqué
-let decrementCounter = 100;
+/* let decrementCounter = 100;
 function decrementOnClick() {
   document
     .getElementById('decrement')
@@ -133,4 +139,10 @@ function decrementOnClick() {
         console.log('On est arrivé à la fin !');
       }
     });
-}
+} */
+
+// sans conflit avec HTML
+let decrementOnClick = () => {
+  counter = --counter;
+  console.log(counter);
+};

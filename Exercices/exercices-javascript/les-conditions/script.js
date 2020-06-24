@@ -32,7 +32,7 @@ function check2(leftNumber, rightNumber) {
       return 1;
     }
   }
-  if ((modulo(leftNumber) == 0, modulo(rightNumber) == 0)) {
+  if (modulo(leftNumber && rightNumber) === 0) {
     console.log('true');
   } else {
     console.log('false');
