@@ -32,16 +32,16 @@ Le cours en français d'OpenClassRoom: https://openclassrooms.com/fr/courses/298
 
 ### Les variables
 
-Une variable est un conteneur. Elle contient les informations dont nous avons besoin pour les fonctionnalités de notre application, notre site.
+Une **variable est un conteneur**. Elle contient les informations dont nous avons besoin pour les fonctionnalités de notre application, notre site.
 Une variable c'est par exemple:
 
 ```js
 const firstname = "Julie";
 ```
 
-const (pour constante) détermine la portée de la variable, en l'occurence elle ne peut être réassignée à une nouvelle valeur car c'est une valeur constante, en effet, mon prénom est Julie et sauf demande express' de ma part aux autorités communales, il en restera tel quel toute ma vie.
+**const** (pour constante) détermine la portée de la variable, en l'occurence elle ne peut être réassignée à une nouvelle valeur car c'est une valeur constante, en effet, mon prénom est Julie et sauf demande express' de ma part aux autorités communales, il en restera tel quel toute ma vie.
 
-let défini une variable dont la valeur est réassignable, par exemple:
+**let** défini une variable dont la valeur est réassignable, par exemple:
 
 ```js
 let javascriptTeacher = "Julie";
@@ -51,17 +51,17 @@ Nous ne sommes à l'abris de rien, un évennement m'empechant de donner cours po
 
 Décortiquons un peu plus la synthaxe:
 
-let ou const désignent la portée de la variable.
-firstName est le nom donné à ma variable. Un nom de variable est unique. Un bon nom de variable est défini par la clareté de son utilité (il n'y a pas de doute possible quant à l'utilité de ma variable firstname, elle se réfère à un prénom). 
-Un nom de variable débute toujours par une **lettre minuscule** si elle comporte plusieurs mots (tel que dans l'exemple "javascriptTeacher") la première lettre du second mot sera toujours écrite en majuscule. On appelle cette pratique le "camelCase" https://en.wikipedia.org/wiki/Camel_case il s'agit ici d'un cas de bonne pratique en matière de rédaction de code Javascript.
+**let** ou **const** désignent la portée de la variable.
+**firstName** est le **nom** donné à ma variable. Un nom de variable est unique. Un bon nom de variable est défini par la clareté de son utilité (il n'y a pas de doute possible quant à l'utilité de ma variable firstname, elle se réfère à un prénom). 
+Un nom de variable débute toujours par une **lettre minuscule** si elle comporte plusieurs mots (tel que dans l'exemple "javascriptTeacher") la première lettre du second mot sera toujours écrite en majuscule. On appelle cette pratique le **"camelCase"** https://en.wikipedia.org/wiki/Camel_case il s'agit ici d'un cas de bonne pratique en matière de rédaction de code Javascript.
 
-= pointe l'assignation de la variable à une valeur. 
-"" défini le type de la variable sur "chaîne de caractère", nous verrons dans le chapitre suivant les différents types de variables, il peut s'agir d'un nombre, d'un texte, d'un booléen (vrai ou faux), d'un array (tableau de plusieurs éléments), etc;
-Julie est l'information contenue dans la chaîne de caractère.
-Le point virgule désigne la fin de la ligne, le navigateur comprend qu'il doit passer à la ligne suivante et continue la lecture du code. Si vous vous abstenez d'ajouter le point virgule il peut arriver des erreurs de lectures de votre navigateur. Il est donc indispensable de toujours l'ajouter quand vous passez à la ligne après avoir terminé une ligne de code .
+**=** pointe l'assignation de la variable à une valeur. 
+**" "** défini le type de la variable sur "chaîne de caractère", nous verrons dans le chapitre suivant les différents types de variables, il peut s'agir d'un **nombre**, d'un **texte**, d'un **booléen** (vrai ou faux), d'un **array*** (tableau de plusieurs éléments), etc;
+**Julie** est **l'information contenue** dans la chaîne de caractère.
+**Le point virgule** désigne la fin de la ligne, le navigateur comprend qu'il doit passer à la ligne suivante et continue la lecture du code. Si vous vous abstenez d'ajouter le point virgule il peut arriver des erreurs de lectures de votre navigateur. Il est donc indispensable de toujours l'ajouter quand vous passez à la ligne après avoir terminé une ligne de code .
 
 Voici quelques exercices pour vous entraîner à utiliser les variables:
-<!-- Insérez ici le lien vers les exos -->
+https://github.com/sirius-school/Semaine-02/tree/master/Exercices/exercices-javascript/les-variables
 
 ### Les types
 
@@ -132,7 +132,7 @@ Décortiquons ce bout de code:
 *New* représente l'instruction, *Boolean* l'objet devant être créé, on constate la présence du constructeur *()* il indique que l'objet devant être créé doit recevoir un *paramètre* pour être construit en l'occurence *[valeur]*, cette valeur peut recevoir ***true* ou *false* qui sont des valeurs booléennes**, il est possible d'y insérer d'autres valeurs, ces dernières seront alors converties en valeur booléennes.
 Par exemple: **null**, **undefined**, **0**, **-0**, ou une **chaîne de caractère vide " "**, sera convertie en false. Si la valeur insérée est **valide**, par exemple une chaîne de caractère telle que **"Salut"** elle sera convertie en **true**.
 
-Ma variable isConnected a pour but de vérifier si mon utilisateur est connecté ou non.
+**Ma variable isConnected a pour but de vérifier si mon utilisateur est connecté ou non.**
 Si il est connecté, la valeur attritubée sera "true" (vrai), si pas elle sera "false" (faux). Un booléen ne reçoit que ces deux valeurs "vrai" ou "faux". Elle permet de performer des actions spécifique en vérifiant si l'état de cette variable est définie sur true, ou sur false. 
 
 Par exemple, si mon utilisateur est connecté, je peux afficher son profil sur le client, si non, le client renvois vers la page de connexion ou d'enregistrement.
@@ -165,7 +165,7 @@ Dans celui-ci la variable est déclarée directement avec des crochets qui corre
 let siriusTeamArray = ["Jeremy","Christophe","Julie","Laetitia","David","Vincent"];
 ```
 
-Pouvez vous me dire quel est l'indice de Laetitia dans ce tableau ?
+**Pouvez vous me dire quel est l'indice de Laetitia dans ce tableau ?**
 Dans ce dernier cas le tableau est directement déclaré avec des données.
 Si vous possédez déjà les données nécessaires vous pouvez pré-remplir votre tableau comme ci dessus avec la variable siriusTeamArray, sinon vous pouvez créer un tableau vide comme les deux exemples précédents, et utiliser une fonction spécifique de javascript (que nous verrons prochainement lors de la série d'exercice sur la manipulation des tableaux) pour le remplir une fois les informations acquises.
 
@@ -186,7 +186,7 @@ Retenez que les tableaux sont des éléments essentiels à la création de sites
 
 **5. Objets**
 
-Retenez que le Javascript est un langage orienté objet. Tout est construit à partir d'un objet (variables, méthodes, fonctions...). Les objets possèdent des propriétés, on peut les comparer aux objets de la vrai vie. Par exemple je peux créer un objet Chien qui possédera comme propriété une race, une taille, un poids, une couleur de pelage, un âge, un nom. À ces propriétés viennent se joindre les valeurs correspondante au chien.
+**Retenez que le Javascript est un langage orienté objet**. Tout est construit à partir d'un objet (variables, méthodes, fonctions...). Les objets possèdent des propriétés, on peut les comparer aux objets de la vrai vie. Par exemple je peux créer un objet Chien qui possédera comme propriété une race, une taille, un poids, une couleur de pelage, un âge, un nom. À ces propriétés viennent se joindre les valeurs correspondante au chien.
 Prenons comme exemple:
 
 ```js
@@ -202,7 +202,7 @@ const chien = {
 
 Les objets possèdent des propriétés et des méthodes qui leur sont propres. Les objets sont une notion complexe mais indispensable, nous verrons plus tard dans le cours et en plus de détail une introduction à la programmation orienté objet.
 Pour l'instant retenez simplement la manière dont un objet se présente (comme ci dessus, par exemple, chaque valeur peut correspondre à un type, on peut donc retrouver des chapines de caractères, des nombres, des tableaux ou d'autres objets au sein même des objets).
-Pour accéder aux valeurs des propriétés des objets vous pouvez simplement procéder de cette façon -> `console.log(chien.nom);` la console imprimera "Tania".
+**Pour accéder aux valeurs des propriétés des objets vous pouvez simplement procéder de cette façon -> `console.log(chien.nom);` la console imprimera "Tania".**
 
 ### Les opérateurs
 
@@ -230,10 +230,12 @@ La MDN possède une liste de ces opérateurs, dont je vais vous donner quelques 
 - `!=` -> Opérateur de comparaison "différent de"
 - `+=` -> Affectation après addition
 - `-=` -> Affectation après soustraction
-- 
+- `/=` -> Affectation après division
+- `*=` -> Affectation après multiplication
+
 ### Les fonctions
 
-Une fonction est un ensemble d'instructions menant à la réalisation d'une tâche.
+**Une fonction est un ensemble d'instructions menant à la réalisation d'une tâche.**
 Par exemple je souhaite afficher mon prénom dans la console avec un petit message de bienvenue adapté lors de ma connexion. On peut imaginer une fonction telle que celle-ci:
 
 ```js
@@ -247,8 +249,8 @@ helloWhenConnected("Julie");`
 // Output console: "Salut Julie"
 ```
 
-Une fonction contient un constructeur () qui peut recevoir un ou plusieurs paramètres comme dans l'exemple ci dessus (name) et les instructions à executer englobées via {}, grâce à ces éléments on devine donc que la fonction est en fait de type objet.
-On la défini sous plusieurs formes, elle est déclarée à l'aide du mot clé function. Nous verrons plus tard qu'il est également possible de la déclarer sous forme d'une variable à l'aide ce que l'on appelle "fat arrow function" qui est un standard ECMAscript6.
+Une fonction contient un **constructeur ()** qui peut **recevoir un ou plusieurs paramètres** comme dans l'exemple ci dessus (name) et **les instructions à executer englobées via {}**, grâce à ces éléments on devine donc que la fonction est en fait de type objet.
+On la défini sous plusieurs formes, elle est **déclarée à l'aide du mot clé function**. Nous verrons plus tard qu'il est **également possible de la déclarer sous forme d'une variable à l'aide ce que l'on appelle "fat arrow function" qui est un standard ECMAscript6.**
 
 Une fonction peut retourner une valeur, on peut par exemple l'utiliser pour réaliser des opérations:
 
@@ -261,21 +263,24 @@ multiplication(2, 4);`
 // Output console: 8
 ```
 
-Dans ce bout de code on appelle la fonction à l'aide de son nom suivit de son constructeur comprenant les deux paramètres que j'ai décidé de lui attribuer (2 et 4). Vous le comprendrez, les paramètres défini lors de la construction de la fonction sont en réalité une valeur abstraite destinée à être remplacée par une donnée. Cette donnée est intégré lors de l'appel à la fonction. Pour lancer une fonction il faut en effet faire appel à elle, pour ce faire vous l'avez constaté il suffit d'indiquer le nom de la fonction désirée suivie de son constructeur () et du point virgule.
-
+Dans ce bout de code on appelle la fonction à l'aide de son nom suivit de son constructeur comprenant **les deux paramètres** que j'ai décidé de lui attribuer **(2 et 4)**. Vous le comprendrez, les paramètres défini lors de la construction de la fonction sont en réalité une **valeur abstraite destinée à être remplacée par une donnée**. Cette donnée est intégré lors de l'appel à la fonction. **Pour lancer une fonction il faut en effet faire appel à elle**, pour ce faire vous l'avez constaté il suffit d'indiquer le nom de la fonction désirée suivie de son constructeur () et du point virgule.
+```js
+// Exemple d'appel de fonction:
+multiplication(2,4);
+```
 Observez la fonction helloWhenConnected et la fonction multiplication, n'y-a-t-il pas une différence dans la synthaxe?
 Le mot clé return apparaît dans la seconde fonction. Sans lui le résultat de l'opération ne serait tout simplement pas retourné à l'écran.
 
 
 ### Les conditions
 
-L'explication est dans le titre. Parfois, vous serez amener à performer une fonction, une série d'instructions, uniquement si une condition est remplie (ou non). Les conditions utilisent les opérateurs de comparaison pour s'aider à prendre une décision en fonction des paramètres qui leur sont fournis.
+L'explication est dans le titre. Parfois, vous serez amener à performer une fonction, une série d'instructions, **uniquement si une condition est remplie (ou non)**. Les conditions utilisent les **opérateurs de comparaison** pour s'aider à prendre une décision en fonction des paramètres qui leur sont fournis.
 Par exemple:
 J'hésite à manger une barre de chocolat plutôt qu'une pomme. Mon médecin traitant m'a fait la remarque de diminuer sur le sucre, je me renseigne sur les taux de sucres de ma barre chocolatée et de ma pomme. Celui de ma pomme est inférieur à celui de ma barre chocolatée -> je décide de manger la pomme (dans le meilleur des cas, l'erreur est humaine, pas mathématique).
 
-Nous allons voir deux types de conditions: if...else, et switch Case.
+Nous allons voir deux types de conditions: **if...else**, et **switch Case**.
 
-La première: if...else est littéralement traduite par "si...sinon...". Si ma condition est remplie, je performe mon opération. Sinon je ne fais rien ou je prévois une autre opération à réaliser dans ce cadre.
+La première: **if...else** est littéralement traduite par **"si...sinon...".** Si ma condition est remplie, je performe mon opération. Sinon je ne fais rien ou je prévois une autre opération à réaliser dans ce cadre.
 
 Par exemple:
 ```js
@@ -289,7 +294,7 @@ if(isConnected === true){
 **Si** ma variable isConnected est vérifiée à true, je lance ma fonction helloWhenConnected("Julie") **sinon**, je redirige mon utilisateur vers la page de login.
 Plutôt simple non? Il suffit de dire explicitement ce que vous désirez à votre ordinateur et il s'en occupe!
 
-Pour ce qui est du switch Case, la synthaxe et le mode de fonctionnement est assez différent. Il permet en réalité d'évaluer un plus grand nombre de conditions que dans le cadre du if...else
+Pour ce qui est du **switch Cas**e, la synthaxe et le mode de fonctionnement est assez différent. Il permet en réalité d'évaluer un plus grand nombre de conditions que dans le cadre du if...else
 
 ```js
 let siriusTeamArray = ["Jeremy","Christophe","Julie","Laetitia","David","Vincent"];
@@ -313,7 +318,7 @@ switch (siriusTeamArray[0]) {
 }`
 ```
 
-Switch, passe de cas en cas jusqu'à trouver une égalité avec le paramètre entré dans son constructeur. SI l'indice 0 de mon tableau siriusTeamArray est égal au cas (case) "Jeremy" alors la console print console.log("Jeremy") et la vérification des cas suivant se stop à l'aide du mot clé "break;" (indispensable sinon le code entre dans une boucle infinie, c'est à dire le meilleur moyen pour faire planter votre navigateur). Sinon il passe au cas suivant.
+Switch, **passe de cas en cas jusqu'à trouver une égalité avec le paramètre entré dans son constructeur.** SI l'indice 0 de mon tableau siriusTeamArray est égal au cas (case) "Jeremy" alors la console print console.log("Jeremy") et la vérification des cas suivant se stop à l'aide du mot clé "break;" (indispensable sinon le code entre dans une boucle infinie, c'est à dire le meilleur moyen pour faire planter votre navigateur). Sinon il passe au cas suivant.
 
 ## Conclusion
 
